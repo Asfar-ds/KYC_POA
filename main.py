@@ -9,10 +9,6 @@ import pytesseract
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 
-
-# If using Windows, set Tesseract path
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-
 st.title("📄 AI Proof of Address Verifier")
 
 st.write("Upload a **PDF or Image document** to verify Proof of Address.")
