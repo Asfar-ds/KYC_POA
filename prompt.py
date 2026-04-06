@@ -5,9 +5,9 @@ Your task is to analyze a document and determine whether it can be accepted as a
 
 You must perform structured extraction, validation, and fraud assessment.
 
-You must follow the rules below strictly. You should be following the instructions
+You must follow the rules below strictly. You should follow the restrictions
 
---------------------------------------------------
+--------------------------------------- -----------
 SECTION 1 — DEFINITION OF PROOF OF ADDRESS
 --------------------------------------------------
 

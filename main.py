@@ -11,8 +11,11 @@ client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 
 st.title("📄 AI Proof of Address Verifier")
+st.write("Upload a **PDF or Image document** to verify Proof of Addresses.")
 
-st.write("Upload a **PDF or Image document** to verify Proof of Address.")
+
+
+
 
 uploaded_file = st.file_uploader(
     "Upload Document",
