@@ -16,10 +16,12 @@ st.title("📄 AI Proof of Address Verifier")
 
 
 
+
+
+
+
+
 st.write("Upload a **PDF or Image document** to verify Proof of Addresses.")
-
-
-
 
 
 uploaded_file = st.file_uploader(
