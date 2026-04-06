@@ -3,6 +3,7 @@ from pypdf import PdfReader
 from groq import Groq
 from prompt import POA_PROMPT
 from PIL import Image
+import os
 import pytesseract
 
 # Initialize Groq client using Streamlit secrets
