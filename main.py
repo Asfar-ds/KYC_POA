@@ -80,3 +80,6 @@ Analyze the document strictly according to the above rules.
         st.subheader("Verification Result")
 
         st.code(result)
+
+
+# this is the entrire code base of the POA APP
